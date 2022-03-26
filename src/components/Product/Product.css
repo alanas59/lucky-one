@@ -1,0 +1,16 @@
+.product{
+    width:300px;
+    border: 1px #232F3E solid;
+    border-radius:5px;
+    padding-bottom: 30px;
+}
+.product img{
+    width:100%;
+}
+
+.cart-btn{
+    padding:10px;
+    background-color:#FEBD69;
+    border: none;
+    border-radius: 5px;
+}
