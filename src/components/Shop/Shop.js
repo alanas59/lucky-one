@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
 import Product from '../Product/Product';
 import './Shop.css';
 
@@ -16,10 +15,8 @@ const Shop = () => {
    
 
     const addToCart = product =>{
-
         const newCart = [...cart,product];
         setCart(newCart);
-        
     }
 
     const chooseOne = () =>{
